@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio - Drew Dart</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Custom Styles -->
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+
+      <!-- Brand + Subtitle -->
+      <div class="d-flex flex-column">
+        <a class="navbar-brand mb-0" href="index.html">Drew Dart</a>
+        <span class="navbar-subtitle">Cartography | Data Visualization | Storytelling</span>
+      </div>
+
+      <!-- Mobile toggle (we’ll hide this in CSS, but keep markup for Bootstrap sanity) -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNav" aria-controls="navbarNav"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- 4×2 Portfolio Grid -->
+  <div class="container project-grid">
+    <div class="row g-4">
+
+      <!-- Tile 1 -->
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <a href="portfolio/football.html" class="project-tile">
+          <div class="tile-img" style="background-image:url('assets/football_thumbnail.png');"></div>
+          <h3 class="tile-title">The Changing Landscape of College Football</h3>
+        </a>
+      </div>
+
+      <!-- Tile 2 -->
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <a href="portfolio/moon.html" class="project-tile">
+          <div class="tile-img" style="background-image:url('assets/moon_thumbnail.png');"></div>
+          <h3 class="tile-title">Dark Side of the Moon Basemap</h3>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    Drew Dart, 2025
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="lib/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
