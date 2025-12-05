@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="10" height="512">
-  <rect x="0" y="0" width="10" height="85.33" fill="#CC102D"/>   <!-- Philippine Red -->
-  <rect x="0" y="85.33" width="10" height="85.33" fill="#E88514"/> <!-- Beer -->
-  <rect x="0" y="170.66" width="10" height="85.33" fill="#FFFF28"/> <!-- Daffodil -->
-  <rect x="0" y="255.99" width="10" height="85.33" fill="#7DC62C"/> <!-- Dark Lemon Lime -->
-  <rect x="0" y="341.32" width="10" height="85.33" fill="#71C0DE"/> <!-- Aero -->
-  <rect x="0" y="426.65" width="10" height="85.35" fill="#634C8A"/> <!-- Dark Lavender -->
-</svg>
